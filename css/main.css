@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@font-face {font-family: 'SubwayNovella';src: url('../fonts/24AB99_0_0.eot');src: url('../fonts/24AB99_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/24AB99_0_0.woff') format('woff'),url('../fonts/24AB99_0_0.ttf') format('truetype');}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Droid Serif';
+    position: relative;
+    height: 100%;
+    font-size: 16px;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: relative; 
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.subsection {
+    width: 500px;
+    margin: 2em auto;
+}
+
+h1 {
+    font-family: 'SubwayNovella', 'serif';
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'SubwayNovella', 'serif';
+    font-size: 1.5em;
+    margin: 0 0 .3em 0;
+}
+
+img {
+    width: 300px;
+}
+
+
+a {
+    color: #22BCB9;
+}
+
+a:visited {
+    color: #31373A;
+}
+
+p {
+    margin: 0;
+}
+
+a.more-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+
+
